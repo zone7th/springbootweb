@@ -48,8 +48,14 @@
 			<artifactId>tomcat-embed-jasper</artifactId> 
 			<scope>provided</scope>
 		 </dependency>
-        
-
+		 
+		 <!-- EurekaClient依赖 -->
+		 <dependency>
+		     <groupId>org.springframework.cloud</groupId>
+             <artifactId>spring-cloud-starter-eureka</artifactId>
+             <version>1.1.5.RELEASE</version>
+         </dependency>
+ 
     </dependencies>
 
     <build>
